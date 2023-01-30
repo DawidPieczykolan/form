@@ -1,0 +1,52 @@
+.container{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    padding: 50px;
+    box-shadow: rgba(12, 192, 27, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+input[type=text],input[type=name],input[type=surname],input[type=number],input[type=email],input[type=adress]{
+    border: 1px solid rgb(207, 88, 9);
+    width: 300px;
+    height: 30px;
+    outline: none;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 100;
+    font-family:cursive;
+    background: #808000;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+input[type=button]{
+    border: 1px solid rgb(212, 29, 84);
+    text-align: center;
+    height: 34px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(100, 5, 189);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+label{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
